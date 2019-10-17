@@ -19,6 +19,8 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from matplotlib.ticker import NullLocator
 
+import pyrealsense2 as rs
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--image_folder', type=str, default='data/samples', help='path to dataset')
 parser.add_argument('--config_path', type=str, default='config/yolov3.cfg', help='path to model config file')
